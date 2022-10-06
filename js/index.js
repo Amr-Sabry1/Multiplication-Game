@@ -21,7 +21,6 @@ function start() {
     document.getElementById("answer").classList.replace("d-none", "d-block")
     document.getElementById("clock").classList.replace("d-none", "d-block")
     document.getElementById("restart").classList.replace("d-none", "d-block")
-    setTimeout(countdown, 1000);
 
 }
 
@@ -52,7 +51,8 @@ function solution() {
 
 }
 
-timeLeft = 60;
+timeLeft = 65;
+setTimeout(countdown, 1000);
 
 function countdown() {
     timeLeft--;
