@@ -1,0 +1,43 @@
+    body {
+        background-image: url(../images/pexels-photo-3785931.jpeg);
+    }
+    
+    .container {
+        width: 50%;
+    }
+    
+    .container h2 {
+        color: #e6c48c;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    
+    .amr {
+        color: #e6c48c !important;
+    }
+    
+    .contain-game {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, #fcff9fd0 100%);
+        height: 50vh;
+    }
+    
+    @media screen and (max-width:992px) {
+        .container {
+            width: 100%;
+        }
+    }
+    
+    #restart,
+    #start {
+        color: black !important;
+        background: linear-gradient(0deg, #e6c48c 0%, rgba(69, 45, 253, 0.5637605383950455) 100%);
+    }
+    
+    #restart:hover,
+    #start:hover {
+        background-color: white;
+    }
+    
+    #false {
+        background: linear-gradient(0deg, rgb(195, 120, 34) 0%, rgba(255, 43, 1, 0.916) 100%);
+    }
